@@ -1,8 +1,9 @@
-.box{
+/* Below Classes were used to learn floar property */
+
+/* .box{
     height: 100px;
     width: 200px;
 }
-
 
 .red{
     background-color: red;
@@ -46,4 +47,36 @@
 
 .clear-both{
     clear: both;
+} */
+
+/* Basic Nav Syles */
+body{
+    margin: 0;
 }
+
+.main-nav{
+    height: 75px;
+    background-color: #D6C9A5;
+}
+
+.logo{
+    height: 56px;
+    padding: 10px;
+}
+
+.nav-list{
+    float: right;
+    list-style-type: none;
+}
+
+li{
+    color: #ffffff;
+    float: left;
+    padding: 14px 16px;
+    /* first value is top/bottom second value is Left/Right */
+}
+
+.center{
+    text-align: center;
+}
+/* End Nav Style */
