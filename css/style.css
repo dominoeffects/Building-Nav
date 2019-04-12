@@ -80,3 +80,19 @@ li{
     text-align: center;
 }
 /* End Nav Style */
+
+/* Hover Styles */
+
+li:hover {
+    font-size: 30px;
+    padding: 5px 16px;
+}
+
+.main-nav:hover{
+    height: 140px;
+}
+
+.logo:hover{
+    height:120px;
+}
+/* End of Hover Styles */
