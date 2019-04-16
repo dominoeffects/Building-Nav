@@ -119,5 +119,11 @@ a{
 .icons{
     height: 25px;
 }
-
 /* End of Footer styles */
+
+/* Google Map Styles */
+iframe{
+    width: 25vw;
+    height: 350px;
+}
+/* End of Google Map Styles */
