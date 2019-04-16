@@ -96,3 +96,28 @@ li:hover {
     height:120px;
 }
 /* End of Hover Styles */
+/* Content Styles */
+.content{
+    height: 85vh;
+}
+/* End of Content Styles */
+/* Footer Styles */
+.footer{
+    background-color: #D6C9A5;
+}
+.social-media{
+    height: 60px;
+    margin-bottom:0;
+    list-style-type: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.icons{
+    height: 25px;
+}
+
+/* End of Footer styles */
