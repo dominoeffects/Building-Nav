@@ -128,15 +128,37 @@ a{
     margin-right: auto;
 }
     /* Google Map Styles */
-.map{
-    position: relative;
-    display: block;
+.map-container{
+    padding: 10px 50px;
+    display: block; 
 }
 
-iframe{
-    position: absolute;
-    width: 50vw;
+.google-map{
+    display: block;
     height: 350px;
-    left: 25%;
+    width: 100%;
 }
-    /* End of Google Map Styles */
+/* End of Google Map Styles */
+
+ /* Audio-Visual */
+.media{
+    display: block;
+    margin-bottom: 10px;
+    height: 55px;
+}
+
+audio{
+    left: 40%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.youtube-video{
+    width: 560px;
+    height: 315px;
+    display: block;
+    margin: 0 auto;
+}
+   /* End of Audio-Visual */ 
+
