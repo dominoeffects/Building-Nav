@@ -66,7 +66,6 @@ body{
 
 .nav-list{
     float: right;
-    list-style-type: none;
 }
 
 li{
@@ -108,7 +107,6 @@ li:hover {
 .social-media{
     height: 60px;
     margin-bottom:0;
-    list-style-type: none;
 }
 
 a{
@@ -138,27 +136,62 @@ a{
     height: 350px;
     width: 100%;
 }
-/* End of Google Map Styles */
+    /* End of Google Map Styles */
 
- /* Audio-Visual */
+    /* Audio-Visual */
 .media{
-    display: block;
-    margin-bottom: 10px;
     height: 55px;
 }
 
 audio{
-    left: 40%;
-    display: block;
-    margin: 0 auto;
     margin-bottom: 10px;
 }
 
 .youtube-video{
     width: 560px;
     height: 315px;
+}
+
+
+    /* End of Audio-Visual */ 
+
+    /* oocss style */
+.no-list-style {
+    list-style-type: none;
+}
+
+.margin-0-auto{
     display: block;
     margin: 0 auto;
 }
-   /* End of Audio-Visual */ 
 
+.button{
+    padding: 10px;
+    font-size: 24px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+.button-success{
+    background-color: yellowgreen;
+}
+
+.button-default{
+    background-color: #ccc;
+    color: black;
+}
+
+.button-danger{
+    background-color: red;
+}
+
+.button-small{
+    width: 150px;
+}
+
+.button-large{
+    width: 250px;
+}
+    /* End of oocss style */
+/* End of Content Styles */
