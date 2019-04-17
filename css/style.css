@@ -194,7 +194,26 @@ audio{
     width: 250px;
 }
     /* End of oocss style */
+    /* fmaily styles */
+    span{
+        background-color: yellowgreen;
+    }
+
+    .family > span{
+        background-color: orange;
+    }
+
+    .second-span ~ .first-span {
+        color: red;
+    }
+
+    ul.social-media > li {
+        padding: 20px 24px;
+    }
+    /* End of fmaily styles */
+
 /* End of Content Styles */
+
 
 /* Media Query */
     /* all devices with screens width <= 768px */
