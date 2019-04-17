@@ -195,3 +195,25 @@ audio{
 }
     /* End of oocss style */
 /* End of Content Styles */
+
+/* Media Query */
+    /* all devices with screens width <= 768px */
+@media (max-width: 768px){
+    .button{
+        font-size: 18px;
+    }
+}
+
+    /* screen size larger than 768px but smaller than 1024px */
+@media(min-width: 768px) and (max-width:1024px){
+    .button{
+        font-size: 22px;
+    }
+}
+    /* screen size = 1024px */
+    @media (min-width:1024px) and (max-width: 1024px) {
+        .button{
+            font-size: 20px;
+        }
+    }
+/* End of Media Query */
