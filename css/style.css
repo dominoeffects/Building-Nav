@@ -121,9 +121,22 @@ a{
 }
 /* End of Footer styles */
 
-/* Google Map Styles */
-iframe{
-    width: 25vw;
-    height: 350px;
+/* content styles */
+.content{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
-/* End of Google Map Styles */
+    /* Google Map Styles */
+.map{
+    position: relative;
+    display: block;
+}
+
+iframe{
+    position: absolute;
+    width: 50vw;
+    height: 350px;
+    left: 25%;
+}
+    /* End of Google Map Styles */
