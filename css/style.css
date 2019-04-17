@@ -128,8 +128,15 @@ a{
     margin-right: auto;
 }
     /* Google Map Styles */
+.map{
+    position: relative;
+    display: block;
+}
+
 iframe{
-    width: 25vw;
+    position: absolute;
+    width: 50vw;
     height: 350px;
+    left: 25%;
 }
     /* End of Google Map Styles */
